@@ -1,4 +1,4 @@
-# Libft
+# LIBFT
 LIBC =	Libft/ft_atoi.c Libft/ft_bzero.c Libft/ft_calloc.c Libft/ft_isalnum.c Libft/ft_isalpha.c \
 		Libft/ft_isascii.c Libft/ft_isdigit.c Libft/ft_isprint.c Libft/ft_memchr.c \
 		Libft/ft_memcmp.c Libft/ft_memcpy.c Libft/ft_memmove.c Libft/ft_memset.c Libft/ft_strchr.c \
@@ -14,7 +14,7 @@ BONUS =	Libft/ft_lstadd_back_bonus.c Libft/ft_lstadd_front_bonus.c Libft/ft_lstc
 
 SRCSLIBFT = ${LIBC} ${ADDITIONAL} ${BONUS}
 
-# Libft/FT_PRINTF
+# FT_PRINTF
 SRCSPRINTF =	ft_printf/ft_printf.c ft_printf/ft_putadress.c ft_printf/ft_putchar.c \
 				ft_printf/ft_puthexa_lower.c ft_printf/ft_puthexa_upper.c ft_printf/ft_putnbr.c \
 				ft_printf/ft_putstr.c ft_printf/ft_putunbr.c
